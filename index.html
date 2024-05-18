@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Blackjack</title>
+</head>
+<body>
+    <main class="container">
+        <h1>Blackjack</h1>
+        <div class="casperContainer"> 
+            <div id="manoJugador" class="manoJugadorContent">
+                <h2>Jugador:</h2>
+                <p id="cartasJugador"></p>
+                <p id="puntuacionJugador"></p>
+            </div>
+            <div id="manoCrupier" class="manoCrupierContent">
+                <h2>Crupier:</h2>
+                <p id="cartasCrupier"></p>
+                <p id="puntuacionCrupier"></p>
+            </div>
+        </div>
+        <div class="footerBlackJack">
+            <button id="pedirCarta">Pedir Carta</button>
+            <button id="plantarse">Plantarse</button>
+        </div>
+    </main>
+    <script src="baraja.js"></script>
+    <script src="puntuacion.js"></script>
+    <script src="juego.js"></script>
+</body>
+</html>
